@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: sans-serif;
+}
+
+form{
+    width: 50%;
+    padding: 50px;
+    margin: 10vh auto;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+
+.heading{
+    color: grey;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.box{
+    position: relative;
+    padding: 20px;
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.box > div:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.password > label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+.password > input{
+    width: calc(100% - 10px);
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.error{
+    visibility: hidden;
+    color: red;
+}
+
+.box > button{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+}
